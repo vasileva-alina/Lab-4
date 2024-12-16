@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Задания JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+body {
+  font-family: sans-serif;
+}
+
+.task {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+  </style>
+</head>
+<body>
+  <div class="task">
+    <h2>Задание 1: Область видимости переменных</h2>
+    <button onclick="task1()">Выполнить</button>
+    <p id="task1Result"></p>
+  </div>
+
+  <div class="task">
+    <h2>Задание 2: Палиндром</h2>
+    <input type="text" id="palindromeInput" placeholder="Введите строку">
+    <button onclick="checkPalindrome()">Проверить</button>
+    <p id="palindromeResult"></p>
+  </div>
+
+  <div class="task">
+    <h2>Задание 3: Замена отрицательных элементов</h2>
+    <button onclick="replaceNegatives()">Выполнить</button>
+    <p id="replaceNegativesResult"></p>
+  </div>
+
+  <div class="task">
+    <h2>Задание 4: Класс для имени пользователя</h2>
+    <input type="text" id="usernameInput" placeholder="Введите имя">
+    <button onclick="createUser()">Создать</button>
+    <p id="usernameResult"></p>
+  </div>
+
+  <div class="task">
+    <h2>Задание 5: Класс с приветствием</h2>
+    <input type="text" id="usernameInput2" placeholder="Введите имя">
+    <button onclick="showMessageClass()">Показать приветствие</button>
+  </div>
+
+  <div class="task">
+    <h2>Задание 6: Класс для переворота имени</h2>
+    <input type="text" id="nameInput" placeholder="Введите имя">
+    <button onclick="reverseName()">Перевернуть</button>
+    <p id="reverseNameResult"></p>
+  </div>
+
+  <div class="task">
+    <h2>Дополнительное задание</h2>
+    <button id="runSimulation">Вычислить</button>
+    <p id="simulationResult"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
